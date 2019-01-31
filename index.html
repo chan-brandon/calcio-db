@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CALCIOdb</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Google Fonts API -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Muli:700|Questrial|Rock+Salt" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="#"><i class="fas fa-futbol"></i> CALCIOdb</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <nav class="navbar">
+      <form class="form-inline">
+        <input class="form-control mr-sm-3 search-bar-outline" type="search" placeholder="Search Player Name" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Compare</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Market</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container-fluid hero-container">
+      <div class="hero-container">
+        <h1 class="h1-logo">CALCIOdb</h1>
+        <p class="below-logo">Our data. Your knowledge.</p>
+      </div>
+    </div>
+
+    <!-- Search Section -->
+    <div class="container-fluid search-area">
+      <div class="hero-search">
+        <div class="wrap">
+          <div class="search">
+            <input type="text" class="searchTerm" placeholder="Search Database for Player...">
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-under-search"></p>
+
+    <div class="container-fluid under-search-container">
+
+      <div class="row">
+        <a class="col-lg-4 col-md-4 col-sm-4 under-search-features" href="#">
+          <i class="fas fa-users"></i>
+          <p class="icon-text">Player DB</p>
+
+        </a>
+        <a class="col-lg-4 col-md-4 col-sm-4 under-search-features" href="#">
+          <i class="fas fa-trophy"></i>
+          <p class="icon-text">Players of the Week</p>
+
+        </a>
+        <a class="col-lg-4 col-md-4 col-sm-4 under-search-features" href="#">
+          <i class="fas fa-globe"></i>
+          <p class="icon-text">Market</p>
+
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <!-- Middle Section -->
+  <section id="middle">
+
+    <div class="container-fluid container-top-players">
+      <h1 class="players-of-week">Top Players of the Week</h1>
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-4 player-box">
+          <img class="player-image" src="images/guendouzi.jpg" alt="Guendouzi-img">
+          <p class="player-name-text">Matteo Guendouzi</p>
+          <p class="club-name-text"><em>Lorient</em></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 player-box">
+          <img class="player-image" src="images/nkunku.jpg" alt="Nkunku-img">
+          <p class="player-name-text">Christopher Nkunku</p>
+          <p class="club-name-text"><em>Paris Saint Germain</em></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 player-box">
+          <img class="player-image" src="images/laca.jpg" alt="Laca-img">
+          <p class="player-name-text">Alexandre Lacazette</p>
+          <p class="club-name-text"><em>Lyon</em></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 player-box">
+          <img class="player-image" src="images/denis.jpg" alt="Denis-img">
+          <p class="player-name-text">Denis Suarez</p>
+          <p class="club-name-text"><em>Barcelona</em></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 player-box">
+          <img class="player-image" src="images/jenko.jpg" alt="Jenko-img">
+          <p class="player-name-text">Carl Jenkinson</p>
+          <p class="club-name-text"><em>Arsenal</em></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 player-box">
+          <img class="player-image" src="images/lucas.jpg" alt="Torreira-img">
+          <p class="player-name-text">Lucas Torreira</p>
+          <p class="club-name-text"><em>Sampdoria</em></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Most Under Rated Players -->
+
+  <section id="underrated">
+    <div class="container-fluid">
+      <h2 class="related-h2">Players Under Market Value</h2>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 player-box">
+          <img class="player-image" src="images/giorgio.jpg" alt="Giorgi-img">
+          <p class="player-name-text"><a class="related-link" href="#">Giorgi Chakvetadze</a></p>
+          <p class="club-name-text"><em>KAA Gent</em></p>
+          <p class="related-info market-value">Market Value - <span class="pound">&#163</span>8.10 mil</p>
+          <p class="related-info position">Midfielder - Attacking Midfield</p>
+          <p class="related-text"><strong> - Related Players - </strong></p>
+          <p class="related-info related-players"><a class="related-link" href="#">Denis Suarez - <span class="pound">&#163</span>22.00m</a></p>
+          <p class="related-info related-players"><a class="related-link" href="#">Javier Pastore - <span class="pound">&#163</span>18.00m</a></p>
+          <p class="more"><a class="related-link" href="#">more...</a></p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 player-box">
+          <img class="player-image" src="images/raoul.jpeg" alt="Raoul-img">
+          <p class="player-name-text"><a class="related-link" href="#">Raoul Bellanova</a></p>
+          <p class="club-name-text"><em>A.C. Milan</em></p>
+          <p class="related-info market-value">Market Value - <span class="pound">&#163</span>770k</p>
+          <p class="related-info position">Defender - Right Back</p>
+          <p class="related-text"><strong> - Related Players - </strong></p>
+          <p class="related-info related-players"><a class="related-link" href="#">Joao Cancelo - <span class="pound">&#163</span>49.50m</a></p>
+          <p class="related-info related-players"><a class="related-link" href="#">Kyle Walker - <span class="pound">&#163</span>48.00m</a></p>
+          <p class="more"><a class="related-link "href="#">more...</a></p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Bottom Section -->
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

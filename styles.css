@@ -1,0 +1,193 @@
+/*---- NavBar ----*/
+
+.fa-futbol {
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: #c2d4d8;
+  color: #FFF;
+  font-family: 'Questrial', sans-serif;
+}
+
+.navbar-brand {
+  color: #FFF;
+  font-family: 'Questrial', sans-serif;
+}
+
+.nav-link {
+  color: #FFF;
+}
+
+.search-bar-outline {
+  border-color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.btn {
+  background-color: #c2d4d8;
+  border-color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.hero-container {
+  padding: 3% 15% 1%;
+}
+
+.h1-logo {
+  font-size: 6rem;
+  margin: 0;
+}
+
+body{
+  background: #f2f2f2;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+#hero {
+  background-color: #c2d4d8;
+  color: #fff;
+  padding: 2% 0 13%;
+}
+
+#middle {
+  background-color: #dbe9d8;
+  color: #fff;
+}
+
+
+/* #search {
+  padding-bottom: 10%;
+} */
+
+/*---- Search Bar ----*/
+.search {
+  width: 100%;
+  position: absolute;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  background: gray;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.wrap{
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hero Container */
+
+.under-search-container {
+padding: 0 40%;
+}
+
+.under-search-features {
+  color: #FFF;
+}
+
+.icon-text {
+  font-size: 0.6rem;
+}
+
+/* Middle Section */
+
+.search-area {
+  padding: 0 0 3.5%;
+}
+
+.container-top-players {
+  text-align: center;
+  position: relative;
+}
+
+.player-box {
+  padding-top: 25px;
+}
+
+.players-of-week {
+  padding: 3%;
+  font-size: 2rem;
+}
+
+.player-image {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.player-name-text {
+  font-size: 1rem;
+  padding-top: 6px;
+  padding-bottom: 1px;
+  margin: 0;
+}
+
+.related-h2 {
+  padding: 3%;
+  font-size: 2rem;
+}
+
+.related-link {
+  color: black;
+}
+
+.club-name-text {
+  font-size: 0.7rem;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.market-value {
+  margin: 0;
+}
+
+.position {
+  margin: 0 0 8px;
+}
+
+.related-text {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.related-info {
+  font-size: 0.9rem;
+}
+
+.related-players {
+  margin: 0;
+}
